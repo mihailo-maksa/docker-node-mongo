@@ -6,9 +6,8 @@
 
 ```sh
 
-# Run in Docker
+# Run in Docker (use -d flag to run in background)
 docker-compose up
-# use -d flag to run in background
 
 # Tear Down
 docker-compose down
