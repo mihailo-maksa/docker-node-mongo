@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 (async function connectDB() {
   try {
     await mongoose.connect(
-      'mongodb+srv://mihailo-admin:<your_password>@emaily-imlmk.mongodb.net/test?retryWrites=true&w=majority',
+      'your_mongoDB_connection_string',
       {
         useNewUrlParser: true,
         useCreateIndex: true,
